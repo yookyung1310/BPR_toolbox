@@ -13,7 +13,7 @@ Please read Yoo et al. 2021 (in revision, I will notate it as soon as it is publ
 
 We hope researchers using pupillomtery benefit from the toolbox, and we always welcome researchers who want to comment, modify, or improve the toolbox.
 
-# How to run tutorial code
+# How to run the tutorial code
 
 1. Please copy the BPRtoolbox_tutorial folder to your Desktop folder, and run BPRtoolbox_tutorial.m in the BPRtoolbox_tutorial folder. 
 
