@@ -1,1 +1,0 @@
-The shadedErrorBar.m has been changed very little because of color property throws warning message. (Kyung Yoo)
