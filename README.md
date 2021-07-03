@@ -5,7 +5,7 @@ It is not well known that eyeblink disturbs pupillomtery by transient constricti
 
 The toolbox infers BPR component in your data with probabilistic inference model, and subtract the component from your data. It would improve statistical power of your pupil data. Moreover, it corrects BPR on a blink-by-blink basis. Therefore, it deals with the substantial blink-by-blink variability of BPR, and various pattern of non-BPR components, which is impossible with heuristic methods. 
 
-It is easy to apply your pupil data. It requires only pupil and blink data, and sampling rate as inputs. 
+It is easy to apply your pupil data. It requires only pupil and blink data, and sampling rate as inputs. See bprcorrect.m, the main function that corrects BPR, for details.
 
 The BPR correction toolbox can be applied any pupil data if the data is preprocessed. The rest preprocessing codes here was written for pupil data from Eyelink, but you would be able to apply the preprocessing codes as well if you change the code slightly. 
 
