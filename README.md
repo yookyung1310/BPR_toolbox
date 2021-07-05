@@ -19,7 +19,7 @@ We hope researchers using pupillometry benefit from the toolbox, and we always w
 
 2. It will show how BPR works with 2 example subjects' data from the fixation task (Yoo et al. 2021, In revision). It will take 10-30 minutes depending on your hardware in this case. 
 
-3. Please read BPR toolbox tutorial keynote.key or BPR toolbox tutorial keynote.pdf to appreciate the preprocessing and correction result with simple descriptions.
+3. Please read BPR toolbox tutorial keynote.pdf to appreciate the preprocessing and correction result with simple descriptions.
 
 Last update: 2021.07.02 Kyung Yoo
  
