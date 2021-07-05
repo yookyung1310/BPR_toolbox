@@ -15,9 +15,9 @@ We hope researchers using pupillomtery benefit from the toolbox, and we always w
 
 # How to run the tutorial code
 
-1. Please copy the BPRtoolbox_tutorial folder to your Desktop folder, and run BPRtoolbox_tutorial.m in the BPRtoolbox_tutorial folder. 
+1. Please copy the BPRtoolbox_tutorial folder to your Desktop folder, and run BPRtoolbox_tutorial.m in the BPRtoolbox_tutorial folder. (Type N to the question when you run the code first. It will apply pupil data preprocessing and BPR correction both. Type Y if it has been processed, then it will load the previously preprocessed data and run BPR correction only) 
 
-2. It will show how BPR works with 2 example subjects data from the fixation task (Yoo et al. 2021, In revision).
+2. It will show how BPR works with 2 example subjects data from the fixation task (Yoo et al. 2021, In revision). It will take 10-30 minutes depending on your hardware in this case. 
 
 3. Please read BPR toolbox tutorial keynote.key or BPR toolbox tutorial keynote.pdf to appreciate the preprocessing and correction result with simple descriptions.
 
