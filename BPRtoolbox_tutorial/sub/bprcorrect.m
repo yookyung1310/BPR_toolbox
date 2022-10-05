@@ -18,7 +18,7 @@ function [ts_corrected, SF, BPR, BPRfree, BPRaff, BPRcor, summary] = ...
 %   BPRaff: a structure storing variables about BPR-affected periods
 %   BPRCor: a structure storing variables about BPR-corrected periods
 
-%  Last update: 2021.05.22 Kyung Yoo
+%  Last update: 2022.10.05 Kyung Yoo
  
 %   Copyright 2021 Kyung Yoo
 %   Contatct: yookyung1310@gmail.com
@@ -30,6 +30,7 @@ function [ts_corrected, SF, BPR, BPRfree, BPRaff, BPRcor, summary] = ...
 % specific subjects who does not have enough samples or has so different BPR profile estimated.
 % Yoo et al. (PLOS one, in revision) Please read on the paper for details.    
 
+assert(mod(sr, 1) == 0, 'Sampling rate should be an integer') 
 
 firstaxesinput = nargin-numel(varargin);
 opts = parseinput(varargin, 'bprcorrect', firstaxesinput);
@@ -64,6 +65,7 @@ BPR.intLockCat = []; % concatenate intact blink locked pupil time series
 BPR.nIntBRun   = NaN(nRun,1);
 for r = 1:nRun
     if iscell(ts), y = ts{r}; else, y = ts(:,r); end
+    assert(numel(bOffIdxAll{r}) == numel(bOnIdxAll{r}), 'The number of all blinks'' onset (bOnIdxAll{run}) should be equal to all blinks'' offset (bOffIdxAll{run})') 
 %     elrbInt_run = getIRF(y, bOffIdx{r}, BPR.LockRange, sr, 'NaN');
     elrbInt_run = getIRF(y, bOffIdx{r}, BPR.LockRange, sr, 'Last'); % changed from NaN to last value padding because NaN padding made the blr mean like stepwise (2019.05.28)
     BPR.intLockCat = [BPR.intLockCat elrbInt_run];
