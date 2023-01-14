@@ -9,7 +9,7 @@ It is easy to apply your pupil data. It requires pupil and blinks data, and samp
 
 The BPR correction toolbox can be applied to any pupil data if the data is preprocessed. The rest preprocessing codes here was written for pupil data from Eyelink, but you would be able to apply the preprocessing codes as well if you change the code slightly. 
 
-Please read Yoo et al. 2021 (in revision, I will notate it as soon as it is published) to identify what's going on in pupillometry when a subject blinks. Also, it will introduce a model and algorithm for correction, and validate it.
+Please read Yoo et al. (2021. PLOS one) to identify what's going on in pupillometry when a subject blinks. Also, it will introduce a model and algorithm for correction, and validate it.
 
 We hope researchers using pupillometry benefit from the toolbox, and we always welcome researchers who want to comment, modify, or improve the toolbox.
 
@@ -21,7 +21,7 @@ We hope researchers using pupillometry benefit from the toolbox, and we always w
 
 3. Please read BPR toolbox tutorial keynote.pdf to appreciate the preprocessing and correction result with simple descriptions.
 
-Last update: 2021.07.02 Kyung Yoo
+Last update: 2022.01.14 Kyung Yoo
  
 Copyright 2021 Kyung Yoo
 
