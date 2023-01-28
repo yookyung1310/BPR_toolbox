@@ -21,12 +21,9 @@ set(groot, 'defaultAxesFontSize', defaultAxesFontSize, 'defaultAxesFontweight', 
 set(groot, 'defaultAxeslineWidth', defaultAxeslineWidth)
 set(groot, 'defaultLinelineWidth', defaultlineLineWidth)
 
-% path
-userDir = getenv('userprofile'); % for window
-if isempty(userDir)
-    userDir = getenv('HOME'); % for OS-X and Linux
-end
-folderDir = fullfile(userDir,'Desktop/BPRtoolbox_tutorial');
+fileDir = mfilename('fullpath');
+folderDir = fileparts(fileDir);
+
 funcDir  = fullfile(folderDir, 'sub'); % functions to be used
 addpath(genpath(funcDir));
 dataDir  = fullfile(folderDir, 'data'); % input eyedata files ('.mat')
