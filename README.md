@@ -27,7 +27,7 @@ Yoo, K., Ahn, J., & Lee, S. H. (2021). The confounding effects of eye blinking o
 
 
 
-Last update: 2022.01.14 Kyung Yoo
+Last update: 2022.01.28 Kyung Yoo
  
 Copyright 2021 Kyung Yoo
 
