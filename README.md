@@ -3,7 +3,7 @@ It provides BPR (Blink-locked Pupillary Response) correction toolbox and other p
 
 It is not well known that eyeblink disturbs pupillometry by transient constriction and re-dilation after blinking offset. We call the phenomenon BPR (Blink-locked Pupillary Response). 
 
-The toolbox infers BPR component in your data with the probabilistic inference model, and subtract the component from your data. It would improve the statistical power of your pupil data. Moreover, it corrects BPR on a blink-by-blink basis. Therefore, it deals with the substantial blink-by-blink variability of BPR, and various patterns of non-BPR components, which is impossible with heuristic methods. 
+The toolbox infers BPR component in your data with a probabilistic inference model, and subtract the component from your data. It would improve the statistical power of your pupil data. Moreover, it corrects BPR on a blink-by-blink basis. Therefore, it deals with the substantial blink-by-blink variability of BPR, and various patterns of non-BPR components, which is impossible with heuristic methods. 
 
 It is easy to apply your pupil data. It requires pupil and blinks data, and sampling rate only as inputs. See bprcorrect.m, the main function that corrects BPR, for details.
 
