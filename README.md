@@ -31,4 +31,4 @@ Last update: 2022.01.28 Kyung Yoo
  
 Copyright 2021 Kyung Yoo
 
-Contact: yookyung1310@gmail.com
+Contact: yookyung1310@gmail.com, aeolian@snu.ac.kr
